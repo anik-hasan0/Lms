@@ -6,7 +6,7 @@
 const LMS_CONFIG = {
 
   // ── 1. FIREBASE CONFIG ─────────────────────────────────
-  firebaseConfig: {
+  firebase: {
     apiKey: "AIzaSyDq_3U9K4O0jWZFZexcKCcujSe2YMJz_RY",
     authDomain: "anik-academy.firebaseapp.com",
     projectId: "anik-academy",
