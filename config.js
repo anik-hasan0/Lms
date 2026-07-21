@@ -18,7 +18,7 @@ const LMS_CONFIG = {
 
   // ── 2. SCHOOL / INSTITUTE INFO ─────────────────────────
   school: {
-    name: "Codemyst Academy",
+    name: "ANIK Academy",
     tagline: "Learn. Build. Grow.",
     logo: "https://i.imgur.com/placeholder-logo.png", // logo URL দিন
     favicon: "",                                        // favicon URL (optional)
@@ -60,7 +60,7 @@ const LMS_CONFIG = {
   // ── 6. LANDING PAGE TEXT ──────────────────────────────
   landing: {
     heroTitle:    "আপনার স্বপ্নের ক্যারিয়ার শুরু হোক আজই",
-    heroSubtitle: "দক্ষ শিক্ষকদের সাথে অনলাইনে শিখুন, যেকোনো সময়, যেকোনো জায়গা থেকে।",
+    heroSubtitle: "Where Advanced Nurturing meets Interactive Knowledge",
     ctaText:      "বিনামূল্যে শুরু করুন",
     stats: [
       { value: "500+", label: "শিক্ষার্থী" },
