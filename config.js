@@ -6,14 +6,7 @@
 const LMS_CONFIG = {
 
   // ── 1. FIREBASE CONFIG ─────────────────────────────────
-  firebase: {
-    apiKey: "AIzaSyD41LQfLRymx3kLd8tD1ZuXS_s0aMe85n4",
-    authDomain: "codemyst-lms2.firebaseapp.com",
-    projectId: "codemyst-lms2",
-    storageBucket: "codemyst-lms2.firebasestorage.app",
-    messagingSenderId: "827010164292",
-    appId: "1:827010164292:web:4aeebb24cb290654823e11",
-    measurementId: "G-NTR0GJZDN1"
+  firebaseConfig = {apiKey: "AIzaSyDq_3U9K4O0jWZFZexcKCcujSe2YMJz_RY",authDomain: "anik-academy.firebaseapp.com",projectId: "anik-academy",storageBucket: "anik-academy.firebasestorage.app",messagingSenderId: "171069671389",appId: "1:171069671389:web:9913cf1c9a5c9236755834",measurementId: "G-JBERE4GB4R"};
   },
 
   // ── 2. SCHOOL / INSTITUTE INFO ─────────────────────────
