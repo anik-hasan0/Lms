@@ -13,6 +13,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <!-- ⚠️ CONFIG — শুধু এই ফাইলটি পরিবর্তন করুন নতুন client এর জন্য -->
 <script src="config.js"></script>
+
+<!-- 🔧 TEMPORARY DEBUG TOOL — সমস্যা ঠিক হয়ে গেলে এই ২ লাইন মুছে ফেলুন -->
+<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+<script>eruda.init();</script>
 <style>
 /* ═══════════════════════════════════════
    TOKENS
@@ -1262,7 +1266,7 @@ img { display: block; }
 <script>
 /* ── Firebase init ───────────────────────── */
 // ── Firebase Init (config.js থেকে) ───────────────
-firebase.initializeApp(LMS_CONFIG.firebaseConfig);
+firebase.initializeApp(LMS_CONFIG.firebase);
 const auth = firebase.auth();
 const db   = firebase.firestore();
 
